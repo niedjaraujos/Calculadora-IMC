@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <main>
+        <h1>Cálculo IMC</h1>
+        <div class="texto">
+            <p class="introducao">
+                O IMC, ou Índice de Massa Corporal, é um parâmetro utilizado pela Organização Mundial da Saúde para
+                avaliar
+                o peso ideal de uma pessoa.
+                O cálculo é feito dividindo o peso pelo quadrado da altura. Um resultado entre 18,5 e 24,9 é considerado
+                dentro da faixa de peso normal.
+            </p>
+            <p class="introducao">
+                Quer saber seu IMC? Informe seu peso e altura nos campos abaixo e compare o resultado com os valores da
+                tabela.
+                <strong>Atenção</strong>: siga os exemplos e utilize pontos como separadores.
+            </p>
+        </div>
+        <div class="calcularImc">
+            <div class="altura">
+                <label for="">Altura(m):</label>
+                <input id="altura" type="" placeholder="Ex.: 1.45">
+            </div>
+            <div class="peso">
+                <label for="">Peso (kg):</label>
+                <input class="peso" id="peso" type="" placeholder="Ex.: 98">
+            </div>
+        </div>
+
+
+        <button>Calcular</button>
+
+        <p class="resultado"></p>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

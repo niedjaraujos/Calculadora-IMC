@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Hind Mysuru", serif;
+    background-color: rgb(249, 244, 238);
+}
+main{
+    margin: 100px;
+    height: 100vh;
+}
+h1{
+    font-size: 40px;
+    color: rgb(2, 110, 20);
+    align-items: center;
+}
+
+.texto{
+    font-size: 16px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+label{
+    color: rgb(2, 110, 20);
+    font-size: 20px;
+}
+input{
+outline: none;
+border: 1px rgb(2, 110, 20) solid;
+border-radius: 2px;
+width: 100px;
+padding: 4px;
+font-size: 14px;
+}
+
+button{
+    background-color: rgb(2, 110, 20);
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.resultado{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(14, 161, 38);
+}
+
+@media screen and (max-width : 430px){
+    main{
+        margin: 10px;
+    }
+
+    .texto{
+        margin-bottom: 30px;
+    }
+}
