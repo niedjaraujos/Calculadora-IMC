@@ -33,6 +33,12 @@ padding: 4px;
 font-size: 14px;
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 button{
     background-color: rgb(2, 110, 20);
     color: rgb(255, 255, 255);
