@@ -26,5 +26,6 @@ botao.addEventListener('click', () => {
         document.querySelector('.resultado').textContent = `Seu imc é ${imc}. Obesidade grave grau III`
     }
 
-    console.log(imc)
+ inputAltura.value = ''
+ inputPeso.value=''
 }) 
